@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>   
+    <meta charset="UTF-8">
+    <title>Base Converter</title>        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-16x16.png">    
+    <link rel="stylesheet" type="text/css" href="CSSReset.css" />
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/af45eca708.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>     
+      <div class="container">
+       <header class="header">
+         <div class="head"><h1>Conversor de Base</h1></div>
+          <nav class="links">
+          <a href="https://github.com/BernardoSV" target="_blank"><i class="fab fa-github"></i></a>
+          </nav>
+       </header>
+       <div class="calculators">
+         <div class="table-container">
+            <h2>Binario para Decimal</h2>
+            <div class="input-holder">
+              <input type="number" name="binary" id="binary-input" placeholder="Binary Number Goes Here" >
+            </div>
+            <div class="btn-holder">
+              <button class="btn" onclick="convert()" id="binary-btn">CONVERTER</button>
+            </div> 
+            <table class="table" id="binaryTable">
+            </table> 
+         </div>
+         
+         <div class="table-container">
+            <h2>Decimal para Binario</h2>
+            <div class="input-holder">
+              <input type="number" name="decimal" id="dec-input" placeholder="Decimal Number Goes Here">
+            </div>
+            <div class="btn-holder">
+              <button class="btn" onclick="convertDec()" id="decimal-btn">CONVERT</button>
+            </div> 
+            <table class="table" id="decimalTable"></table> 
+         </div>
+        </div>
+          <div class="text"><p1>Mais conversores serão adicionados em breve.</p1></div>
+      </div>
+    
+
+    <script src="script.js"></script>  
+  </body>
+</html>

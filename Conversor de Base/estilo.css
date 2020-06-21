@@ -1,0 +1,179 @@
+/* * {
+padding:0;
+margin:0;
+vertical-align:baseline;
+list-style:none;
+border:0;
+text-decoration: none;
+}*/
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Vollkorn', serif;
+ box-shadow: 5px 8px 6px -6px black;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Vollkorn:ital@0;1&display=swap');
+
+
+
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+
+body {
+  
+  background-color: #0B0C0D;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.container {
+  
+  background-color: #0b0c0e;
+  border: 1px solid #426DFB;
+  border-radius: 5px;  
+  margin-top: 5%;
+  
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  align-items: center;
+  font-family: 'Vollkorn', serif;
+}
+
+.head h1 {
+  
+  color: white;
+  font-weight: 400;
+}
+
+.text {
+  color: white;
+  font-style:italic;
+  margin: 0px 10px 10px;
+  max-width: 620px
+}
+
+@media (max-width 650px) {
+  .text {
+    max-width: 250px;
+  }
+}
+
+
+
+.links a {
+  font-size: 30px;
+  color: white;
+  transition: .5s ease;
+}
+
+.links a:hover {
+  color: #426DFB;
+}
+
+.calculators {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.table-container {
+  background-color: #fff;
+  border-radius: 5px;
+  min-width: 280px;
+  display: block;
+  margin: 20px 20px 20px 20px;
+  text-align: center;
+  box-shadow: 5px 8px 6px -6px black;
+  
+}
+
+
+
+.table-container h2 {
+  font-size: 1.5em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+}
+
+.input-holder {
+  margin-bottom: 15px;
+  
+}
+
+.btn-holder {
+  margin-bottom: 15px;
+}
+
+.btn {
+  padding: 7px 15px;
+  font-size: 14px;
+  background: none;
+  border: 2px solid black;
+  border-radius: 20px;
+  transition: 0.5s ease;
+  background-color: white;
+  font-weight: 600;
+  outline: none;
+  
+}
+
+.btn:hover {
+  border: 2px solid #426DFB;
+  color: #426dfb;
+ 
+}
+
+.table {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.table td, .table th {
+  border: 1px solid black;
+  padding: 8px;
+  
+}
+
+.table tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;  
+  background-color: black;
+  color: #fdfdfd;
+  font-weight: 400;
+  text-align: center;
+  
+}
+
+input[type=number] {
+   border: 0px solid;
+   border-bottom: 4px solid #426DFB;
+   outline: none;
+}
+
