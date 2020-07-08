@@ -1,7 +1,7 @@
 > **Nesse repositório colocarei todos os meus projetos "pequenos" feitos em Javascript para que meu github fique mais organizado. :)** 
 ---
 # Preview
- <img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/conversordebases.gif" width="290" />  <img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/randomcatioro.gif" width="290" />  <img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/ghiblimovies.gif" width="290" />
+ <img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/conversordebases.gif" width="430" />  <img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/randomcatioro.gif" width="430" />  <img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/ghiblimovies.gif" width="430" />
  
  
 # Projetos
