@@ -1,7 +1,7 @@
 > **Nesse repositório colocarei todos os meus projetos "pequenos" feitos em Javascript para que meu github fique mais organizado. :)** 
 ---
 # Preview
- <img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/conversordebases.gif" width="430" />  <img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/randomcatioro.gif" width="430" />  <img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/ghiblimovies.gif" width="430" />
+ <img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/conversordebases.gif" width="450" />����<img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/randomcatioro.gif" width="450" />����<img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/ghiblimovies.gif" width="450" />����<img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/kanban.gif" width="450" />
  
  
 # Projetos
@@ -32,3 +32,7 @@ Usar fetch foi mamão com açúcar, mas integrar uma segunda api que me retornas
 [Link para API](https://ghibliapi.herokuapp.com/)<br>
 [Link para o artigo](https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/)<br>
 [Link para o Catálogo Estudio Ghibli](http://ghiblimovies.surge.sh/)
+
+## Simple Kanban Board
+
+Um quadro Kanban seguindo a video aula da Rocketseat. A intenção do video era mostrar as funcionalidades de drag and drop, mas eu achei que seria interessante fazer um Kanban funcional. Podendo adicionar e remover tarefas. Eu consegui adicionar e remover, mas por algum motivo não consigo mover os cards adicionados. De qualquer forma eu já tenho uma ideia do que seja. Em breve e volto aqui para arrumar (Preciso arrumar o Design da pagina tbm...). 

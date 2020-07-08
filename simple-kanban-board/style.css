@@ -1,0 +1,159 @@
+html {
+  font-family: 'Nunito';
+}
+
+body {
+  background-color: #130f0d;
+  color: white;
+}
+
+h1 {
+  margin: 16px;
+  text-align: center;
+}
+
+.boards {
+  display: flex;
+  margin-top: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.board {
+  background: #141316;
+  border: 1px solid #fd951f11;
+  border-radius: 4px;
+  margin: 0 16px;
+}
+.board h3 {
+  padding: 16px;
+  margin: 0;
+  color: #fd951fcc;
+}
+
+.dropzone {
+  padding: 16px;
+  min-width: 282px;
+  min-height: 200px;
+}
+
+.card {
+  padding: 16px;
+  box-shadow: 0 2px 2px -1px #fd951fcc;
+  width: 250px;
+  margin: 25px 0;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  background: #1a1a1c;
+}
+
+.status{
+  width: 30px;
+  height: 8px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.status.low{
+  background: #23d2ac;
+}
+.status.medium{
+  background: #33adff;
+}
+.status.high{
+  background: yellow;
+}
+.status.critical{
+  background: red;
+}
+
+.highlight {
+  background-color: #fd951f08;
+}
+
+.card, .dropzone {
+  transition: 0.4s;
+}
+
+.is-dragging {
+  cursor: move;
+  opacity: 0.3;
+}
+
+.over {
+  background-color: #4cd13711;
+}
+
+
+input {
+  padding: 16px;
+  box-shadow: 0 2px 2px -1px #fd951fcc;
+  width: 250px;
+  margin: 16px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  background: #1a1a1c;
+  outline: none;
+  border: 0;
+}
+
+select {
+  padding: 16px;
+  box-shadow: 0 2px 2px -1px #fd951fcc;
+  width: 162px;
+  margin-left: 16px;
+  margin-right: 16px;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  background: #1a1a1c;
+  outline: none;
+  border: 0;
+  -webkit-appearance: none;
+  margin-bottom: 32px;
+}
+
+button {
+  padding: 16px;
+  box-shadow: 1px 1px 10px #06060670;
+  border: 1px solid #fd951fcc;
+  width: 102px;
+  margin-right: 16px;
+  margin-left: 0px;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  background: #1f1f1f;
+  margin-bottom: 32px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:#fd951f;
+  
+}
+
+.create-remove {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 34px;
+  justify-content: center;
+}
+
+#removeTask {
+  margin: 16px;
+  width: 630px;
+  box-sizing: border-box;
+  border: 2px dashed #fd951f50;
+  background-image: url(./assets/trash.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;  
+}
+

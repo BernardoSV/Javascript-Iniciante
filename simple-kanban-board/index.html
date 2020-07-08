@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Simple Kanban Board</h1>
+
+
+    <div class="boards">   
+        <div class="board">
+            <h3>To-do</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status medium"></div>
+                    <div class="content">Remove Card</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="board">
+            <h3>In Progress</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status critical"></div>
+                    <div class="content">Fix-Drag</div>
+                </div>
+                <div class="card" draggable="true">
+                    <div class="status low"></div>
+                    <div class="content">CSS</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="board">
+            <h3>Done</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status low"></div>
+                    <div class="content">HTML</div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        
+    </div>
+    <div class="create-remove">
+        <div class="board">
+            <h3>Create a Task</h3>                
+            <form>
+                <input type="text" name="createTask" id="createTask">
+                <label for="priority">
+                    <h3>Priority</h3>
+                </label>
+                <select name="priority" id="select">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                    <option value="critical">Critical</option>
+                </select>
+                <button onclick="return false">Create</button>
+            </form>
+        </div>
+        <div class="board">
+            <h3>Remove Task</h3>
+            <div class="dropzone" id="removeTask">
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
