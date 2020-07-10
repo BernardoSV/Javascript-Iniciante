@@ -2,7 +2,9 @@
 ---
 # Preview
 
-<img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/conversordebases.gif" width="420" />                <img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/randomcatioro.gif" width="420" />                <img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/ghiblimovies.gif" width="420" /><img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/kanban.gif" width="420" />
+<img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/conversordebases.gif" width="420" align="left" /><img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/randomcatioro.gif" width="420" align="right" />
+<img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/ghiblimovies.gif" width="420" align="left" /><img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/kanban.gif" width="420" align="right" />
+<img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/controleDeDespesas.gif" width="420" align="center" />
  
  
 # Projetos
@@ -37,3 +39,7 @@ Usar fetch foi mamão com açúcar, mas integrar uma segunda api que me retornas
 ## Simple Kanban Board
 
 Um quadro Kanban seguindo a video aula da Rocketseat. A intenção do video era mostrar as funcionalidades de drag and drop, mas eu achei que seria interessante fazer um Kanban funcional. Podendo adicionar e remover tarefas. Eu consegui adicionar e remover, mas por algum motivo não consigo mover os cards adicionados. De qualquer forma eu já tenho uma ideia do que seja. Em breve e volto aqui para arrumar (Preciso arrumar o Design da pagina tbm...). 
+
+## Controle De Despesas
+
+Aplicação para controle de despesas seguindo a vídeo aula do Roger Mello no Youtube. Geralmente eu tento implementar uma funcionalidade ou mudo alguma coisa no design, mas essa aqui ficou tão "fechadinha" que eu fiquei com pena de mexer. Aprendi muito durante a execução desse projeto o que vai me possibilitar trazer coisas novas em breve. 
