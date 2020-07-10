@@ -2,9 +2,9 @@
 ---
 # Preview
 
-<img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/conversordebases.gif" width="420" align="left" /><img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/randomcatioro.gif" width="420" align="right" />
-<img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/ghiblimovies.gif" width="420" align="left" /><img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/kanban.gif" width="420" align="right" />
-<img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/controleDeDespesas.gif" width="420" align="center" />
+<img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/conversordebases.gif" width="400" align="left" /><img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/randomcatioro.gif" width="400" align="right" />
+<img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/ghiblimovies.gif" width="400" align="left" /><img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/kanban.gif" width="400" align="right" />
+<img src="https://github.com/BernardoSV/Javascript-Iniciante/blob/master/previews/controleDeDespesas.gif" width="400" align="center" />
  
  
 # Projetos
