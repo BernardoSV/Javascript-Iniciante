@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./style.css" />
+	<title>Roll Initiative</title>
+</head>
+
+<body>
+	<h1>INICIATIVA!</h1>
+
+	<div class="container">
+		<ul id="initiativeTracker"> </ul>
+		<form id="form">
+			<h3>
+				Adicionar
+				<input type="radio" id="player" name="type" value="player" checked>
+				<label for="player">Jogador</label>
+				<input type="radio" id="npc" name="type" value="npc">
+				<label for="npc">NPC</label>
+			</h3>
+			<div class="form-control">
+				<label for="name">Nome</label>
+				<input autofocus type="text" id="name" placeholder="Nome" />
+			</div>
+
+			<div class="form-control">
+				<label for="initiative">Iniciativa<br /></label>
+				<input type="number" id="initiative" step=".01" placeholder="Valor da Iniciativa" />
+			</div>
+
+			<button class="btn">Adicionar</button>
+		</form>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
