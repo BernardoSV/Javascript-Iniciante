@@ -19,7 +19,10 @@ body {
 
 .container {
   margin: 30px auto;
-  min-width: 350px;
+  width: 100%;
+  max-width: 370px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h1 {
@@ -114,4 +117,3 @@ input[type='number'] {
 #initiativeTracker li:hover .delete-btn {
   opacity: 1;
 }
-
