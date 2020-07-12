@@ -42,10 +42,10 @@ Um quadro Kanban seguindo a video aula da Rocketseat. A intenção do video era 
 
 ## Controle De Despesas
 
-Aplicação para controle de despesas seguindo a vídeo aula do Roger Mello no Youtube. Geralmente eu tento implementar uma funcionalidade ou mudo alguma coisa no design, mas essa aqui ficou tão "fechadinha" que eu fiquei com pena de mexer. Aprendi muito durante a execução desse projeto o que vai me possibilitar trazer coisas novas em breve. 
+Aplicação para controle de despesas seguindo a vídeo aula do Roger Melo no Youtube. Geralmente eu tento implementar uma funcionalidade ou mudo alguma coisa no design, mas essa aqui ficou tão "fechadinha" que eu fiquei com pena de mexer. Aprendi muito durante a execução desse projeto o que vai me possibilitar trazer coisas novas em breve. 
 
 ## Roll-Initiative
 
-Anotar a ordem da iniciativa sempre demorou mais tempo do que deveria e eu sei que existem muitos apps que resolvem esse problema, mas nada se compara a você construir a sua própria versão. Todo o APP foi feito em com base no tutorial da [Calculadora de Despesas](https://youtu.be/xarRciYWT5Q) do Roger Mello (a mesma do projeto acima), fiz como forma de fixar o que aprendi durante a vídeo-aula e também apliquei novos conceitos para que ficasse do meu jeito.
+Anotar a ordem da iniciativa sempre demorou mais tempo do que deveria e eu sei que existem muitos apps que resolvem esse problema, mas nada se compara a você construir a sua própria versão. Todo o APP foi feito em com base no tutorial da [Calculadora de Despesas](https://youtu.be/xarRciYWT5Q) do Roger Melo (a mesma do projeto acima), fiz como forma de fixar o que aprendi durante a vídeo-aula e também apliquei novos conceitos para que ficasse do meu jeito.
 
 Link da Pagina no Surge para testar a aplicação: [Iniciativa!](https://initiative.surge.sh)
